@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e67e22" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ads"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin
+                ="30dp"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_ads_publish_and_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:context="com.example.lenovo.trafficservices.AdsPublishAndDisplay"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:weightSum="1">
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="117dp"
+                android:background="#34495e"
+                android:alpha=".75"
+                android:text="Be travelling companion"
+                android:textColor="#fff"
+                android:id="@+id/btnDisplayAds"
+                android:layout_margin="2dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:background="#34495e"
+                android:alpha=".75"
+                android:text="Find travelling companion"
+                android:textColor="#fff"
+                android:id="@+id/btnPublishAds"
+                android:layout_margin="2dp"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#e5e5e5"
+        android:dividerHeight="1dp"
+        android:background="#d6d6d6"/>
+</android.support.v4.widget.DrawerLayout>

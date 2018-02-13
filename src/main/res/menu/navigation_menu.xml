@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_place"
+            android:icon="@mipmap/ic_place_black_24dp"
+            android:title="Your place" />
+        <item
+            android:id="@+id/nav_contribution"
+            android:icon="@mipmap/ic_edit_location_black_24dp"
+            android:title="Nearby places" />
+        <item
+            android:id="@+id/nav_driving"
+            android:icon="@mipmap/ic_navigation_black_24dp"
+            android:title="Start driving" />
+        <item
+            android:title="Reporting of accident"
+            android:id="@+id/nav_accident"
+            android:icon="@mipmap/ic_description_black_24dp"
+            />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_traffic"
+                android:icon="@mipmap/ic_traffic_black_24dp"
+                android:title="Traffic" />
+            <item
+                android:id="@+id/nav_public"
+                android:icon="@mipmap/ic_directions_subway_black_24dp"
+                android:title="Public transit" />
+            <item
+                android:id="@+id/nav_satellite"
+                android:icon="@mipmap/ic_satellite_black_24dp"
+                android:title="Satellite" />
+            <item
+                android:id="@+id/nav_terrian"
+                android:icon="@mipmap/ic_filter_hdr_black_24dp"
+                android:title="Terrain" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_setting"
+                android:title="setting" />
+
+        </menu>
+    </item>
+
+</menu>

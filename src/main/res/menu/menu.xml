@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.trafficservices.MapActivity">
+
+    <item android:title="@string/map_type_none"
+        android:id="@+id/mapTypeNone" />
+
+    <item android:title="@string/map_type_normal"
+        android:id="@+id/mapTypeNormal"/>
+
+    <item android:title="@string/map_type_terrain"
+        android:id="@+id/mapTypeTerrain"/>
+
+    <item android:title="@string/map_type_satellite"
+        android:id="@+id/mapTypeSatellite"/>
+
+    <item android:title="@string/map_type_hybrid"
+        android:id="@+id/mapTypeHybrid"/>
+
+</menu>
